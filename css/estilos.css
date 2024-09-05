@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.robot{
+    width: 100%;height: 100%;
+    position: relative;
+}
+.nombre{
+    background-color: aquamarine;
+    width: 80%;
+    height: 10vh;
+    position: absolute;
+    left: 10%;
+}
+.caja1{
+    background-color: rgb(170, 240, 240);
+    position: relative;
+    width: 200px;height: 200px;
+    top: 150px;
+    left: 600px;
+}
+.caja1-1{
+    background-color: rgb(150, 200, 200);
+    position: absolute;
+    width: 50px;height: 50px;
+    top: 50px;
+    left: 30px;
+}
+.caja1-1-1{
+    background-color: rgb(100, 150, 150);
+    position: absolute;
+    width: 10px;height: 10px;
+    top: 20px;
+    left: 20px;
+}
+.caja1-2{
+    background-color: rgb(150, 200, 200);
+    position: absolute;
+    width: 50px;height: 50px;
+    top: 50px;
+    right: 30px;
+}
+.caja1-2-1{
+    background-color: rgb(100, 150, 150);
+    position: absolute;
+    width: 10px;height: 10px;
+    top: 20px;
+    left: 20px;
+}
+.caja1-3{
+    background-color: rgb(100, 140, 140);
+    position: absolute;
+    height: 50px;width: 50px;
+    border-radius: 50px;
+    top: 100px;
+    left: 75px;
+
+}
+.caja1-4{
+    background-color: rgb(100, 240, 240);
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    top: 160px;
+    left: 25px;
+}
+.caja1-4-1{
+    background-color: rgb(100, 140, 140);
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.caja1-5{
+    background-color: rgb(50, 240, 240);
+    width: 50px;height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+.caja1-6{
+    background-color: rgb(50, 240, 240);
+    width: 50px;height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.caja1-7{
+    background-color: rgb(50, 240, 240);
+    width: 50px;height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 225px;
+    right: 75px;
+}
+.caja1-8{
+    background-color: rgb(10, 100, 100);
+    width: 10px;height: 25px;
+    position: absolute;
+    bottom: 200px;
+    right: 95px;
+}
+.caja2{
+    background-color: rgb(10, 100, 100);
+    width: 50px;height: 25px;
+    position: relative;
+    top: 150px;
+    left: 675px;
+}
+.caja3{
+    background-color: rgb(170, 240, 240);
+    width: 200px;height: 175px;
+    position: relative;
+    top: 150px;
+    left: 600px;
+}
+.caja3-1{
+    background-color: darkseagreen;
+    width: 150px;height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.caja3-2{
+    background-color: darkseagreen;
+    width: 150px;height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 25px;
+}
+.caja3-3{
+    background-color:rgb(10, 100, 100);
+    width: 150px;height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 175px;
+    transform: rotate(-45deg);
+}
+.caja3-4{
+    background-color:rgb(10, 100, 100);
+    width: 150px;height: 10px;
+    position: absolute;
+    top: 10px;
+    right: 175px;
+    transform: rotate(45deg);
+}
+.caja3-5{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 10px;
+    position: absolute;
+    bottom: 225px;
+    right: 255px;
+    transform: rotate(-45deg);
+}
+.caja3-6{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 10px;
+    position: absolute;
+    bottom: 220px;
+    right: 295px;
+    transform: rotate(35deg);
+}
+.caja3-7{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 10px;
+    position: absolute;
+    bottom: 225px;
+    left: 295px;
+    transform: rotate(-45deg);
+}
+.caja3-8{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 10px;
+    position: absolute;
+    bottom: 220px;
+    left: 255px;
+    transform: rotate(35deg);
+}
+.caja4{
+    background-color: rgb(10, 100, 100);
+    width: 50px;height: 25px;
+    position: relative;
+    top: 150px;
+    left: 675px;
+}
+.caja5{
+    background-color: rgb(63, 194, 194);
+    width: 300px;height: 200px;
+    position: relative;
+    top: 150px;
+    left: 555px;
+}
+.caja5-1{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.caja5-2{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 175px;
+    position: absolute;
+    top: 20px;
+    left: 125px;
+}
+.caja5-3{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 150px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.caja5-4{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 50px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+.caja5-5{
+    background-color:rgb(10, 100, 100);
+    width: 50px;height: 50px;
+    position: absolute;
+    top: 200px;
+    right: 40px;
+}
